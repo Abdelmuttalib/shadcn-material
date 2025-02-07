@@ -608,10 +608,7 @@ export function DialogDemo() {
             <Label htmlFor="name" className="text-right">
               Name
             </Label>
-            <div className="col-span-3 grid w-full grid-cols-4 items-center gap-2">
-              <Input id="name" value="Pedro Duarte" className="col-span-3" />
-              <Button type="submit">Save </Button>
-            </div>
+            <Input id="name" value="Pedro Duarte" className="col-span-3" />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
@@ -621,7 +618,6 @@ export function DialogDemo() {
           </div>
         </div>
         <DialogFooter>
-          <Input id="name" value="Pedro Duarte" className="col-span-3" />
           <Button type="submit">Save changes</Button>
         </DialogFooter>
       </DialogContent>
