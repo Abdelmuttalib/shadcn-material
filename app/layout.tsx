@@ -33,7 +33,7 @@ export default function RootLayout({
         <div className="fixed right-2 top-2 z-[9999]">
           <ThemeButton />
         </div>
-        <TailwindIndicator />
+        {/* <TailwindIndicator /> */}
         {children}
       </body>
     </html>
