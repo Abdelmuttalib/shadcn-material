@@ -15,7 +15,7 @@ export default async function MailPage() {
     <>
       <div className="lg:hidden">
         <Image
-          src="/images/examples/carbon/mail-dark.png"
+          src="/images/examples/mail-dark.png"
           width={1280}
           height={727}
           quality={100}
@@ -23,7 +23,7 @@ export default async function MailPage() {
           className="hidden dark:block"
         />
         <Image
-          src="/images/examples/carbon/mail-light.png"
+          src="/images/examples/mail-light.png"
           width={1280}
           height={727}
           quality={100}
@@ -32,7 +32,7 @@ export default async function MailPage() {
         />
       </div>
 
-      <div className="hidden lg:flex lg:flex-col">
+      <div className="hidden lg:flex lg:h-screen lg:flex-col">
         <Mail
           accounts={accounts}
           mails={mails}

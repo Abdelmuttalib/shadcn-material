@@ -28,7 +28,7 @@ export default function DashboardPage() {
     <>
       <div className="lg:hidden">
         <Image
-          src="/images/examples/carbon/dashboard-light.png"
+          src="/images/examples/dashboard-light.png"
           width={1280}
           height={720}
           quality={100}
@@ -36,7 +36,7 @@ export default function DashboardPage() {
           className="block dark:hidden"
         />
         <Image
-          src="/images/examples/carbon/dashboard-dark.png"
+          src="/images/examples/dashboard-dark.png"
           width={1280}
           height={720}
           quality={100}

@@ -24,14 +24,14 @@ export default function MusicPage() {
     <>
       <div className="md:hidden">
         <Image
-          src="/images/examples/carbon/music-light.png"
+          src="/images/examples/music-light.png"
           width={1280}
           height={1114}
           alt="Music"
           className="block dark:hidden"
         />
         <Image
-          src="/images/examples/carbon/music-dark.png"
+          src="/images/examples/music-dark.png"
           width={1280}
           height={1114}
           alt="Music"

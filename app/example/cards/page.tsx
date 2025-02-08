@@ -38,7 +38,7 @@ export default function CardsPage() {
     <>
       <div className="lg:hidden">
         <Image
-          src="/images/examples/carbon/cards-light.png"
+          src="/images/examples/cards-light.png"
           width={1280}
           height={1214}
           quality={100}
@@ -46,7 +46,7 @@ export default function CardsPage() {
           className="block dark:hidden"
         />
         <Image
-          src="/images/examples/carbon/cards-dark.png"
+          src="/images/examples/cards-dark.png"
           width={1280}
           height={1214}
           quality={100}

@@ -13,7 +13,7 @@ export function ThemeButton() {
         // set dark mode class to html
         document.documentElement.classList.toggle("dark");
       }}
-      className="h-8 w-8"
+      className="h-8 w-8 bg-transparent text-transparent"
     >
       <MoonIcon />
     </Button>
