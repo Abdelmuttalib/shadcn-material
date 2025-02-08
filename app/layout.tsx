@@ -16,7 +16,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Material | shadcn",
+  title: "Material Design | shadcn",
   description: "Material Design shadcn ui style",
 };
 
