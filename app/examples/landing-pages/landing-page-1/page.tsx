@@ -71,7 +71,7 @@ export default function Landing1() {
           </div>
         </Container>
       </header>
-      <div className="flex h-full min-h-screen w-full flex-col gap-y-4 py-24 lg:px-32">
+      <div className="flex h-full min-h-screen w-full flex-col gap-y-4 py-24">
         <Container className="relative w-full">
           <>
             <div className="relative flex flex-col gap-y-8">
@@ -88,7 +88,7 @@ export default function Landing1() {
                 <strong>Result driven marketing.</strong> ACME is a
                 next-generation marketing and technology company.
               </Typography>
-              <div className="flex gap-4">
+              <div className="flex flex-col gap-4 sm:flex-row">
                 <Button variant="default" size="lg">
                   Get Started
                 </Button>
@@ -394,13 +394,13 @@ export default function Landing1() {
           <div>
             <Container>
               <>
-                <div className="mb-16 mt-36 rounded-lg bg-muted/40 p-16">
+                <div className="mb-16 mt-36 rounded-lg bg-muted/40 py-16">
                   <div className="flex flex-col gap-5 text-center">
                     <div>
                       <Typography
                         as="h3"
                         variant="display-md/semibold"
-                        className="text-primary-600"
+                        className="text-primary"
                       >
                         Get more customers with&nbsp;ACME.
                       </Typography>
@@ -437,7 +437,7 @@ export default function Landing1() {
                           />
                         </div> */}
                       </a>
-                      <div className="flex gap-8 font-medium">
+                      <div className="flex gap-4 font-medium sm:gap-8">
                         <a href="#">
                           <div>Home</div>
                         </a>
