@@ -61,7 +61,7 @@ export default function ExamplesLayout({ children }: ExamplesLayoutProps) {
     //         </Typography>
     //         <Typography
     //           as="p"
-    //           variant="lg/regular"
+    //           variant="lg/normal"
     //           className="px-4 text-muted-foreground"
     //         >
     //           A dashboard example built using the components.

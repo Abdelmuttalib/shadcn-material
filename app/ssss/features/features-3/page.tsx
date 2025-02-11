@@ -22,9 +22,9 @@ const features = [
   },
 ];
 
-export default function Features() {
+export default function Features3() {
   return (
-    <div className="overflow-hidden bg-muted/40 py-24 sm:py-32">
+    <div className="overflow-hidden bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
           <div className="lg:pr-8 lg:pt-4">
@@ -42,21 +42,22 @@ export default function Features() {
                   cupiditate blanditiis ratione.
                 </p>
               </div>
-              <dl className="mt-10 grid gap-8 text-base/7 text-muted-foreground md:grid-cols-2 lg:max-w-none lg:grid-cols-3">
+              <dl className="mt-10 grid rounded-lg border bg-muted/30 text-base/7 text-muted-foreground lg:max-w-none lg:grid-cols-3">
                 {features.map((feature, index) => (
                   <div
                     key={feature.name}
-                    className={cn("relative flex flex-col pl-9 lg:pr-6", {
-                      "lg:border-r": index + 1 !== features.length,
+                    className={cn("relative flex flex-col p-8", {
+                      "border-b lg:border-b-0 lg:border-r":
+                        index + 1 !== features.length,
                     })}
                   >
-                    <dt className="inline font-semibold text-foreground">
+                    <dt className="relative inline-flex flex-col gap-2 font-semibold text-foreground">
                       <feature.icon
                         aria-hidden="true"
-                        className="absolute left-1 top-1 size-5 text-primary"
+                        className="size-6 text-primary"
                       />
                       {feature.name}
-                    </dt>{" "}
+                    </dt>
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}

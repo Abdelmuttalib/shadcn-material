@@ -1,12 +1,12 @@
-"use client";
-
-import { ReactElement } from "react";
+/* eslint-disable @next/next/no-img-element */
 
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
 import { Check, CheckCircle2 } from "lucide-react";
+
+import { ReactElement } from "react";
 
 function Container({
   children,
@@ -71,24 +71,24 @@ export default function Landing1() {
           </div>
         </Container>
       </header>
-      <div className="flex h-full min-h-screen w-full flex-col gap-y-4 py-24 lg:px-32">
+      <div className="flex h-full min-h-screen w-full flex-col gap-y-4 py-24">
         <Container className="relative w-full">
           <>
             <div className="relative flex flex-col gap-y-8">
               {/* <GradientBackground /> */}
 
               <Typography
-                variant="6xl/semibold"
+                variant="display-xl/semibold"
                 className="max-w-4xl leading-tight text-foreground"
               >
                 Client Acquisition Marketing to Take Your Law Firm to the Next
                 Level
               </Typography>
-              <Typography variant="2xl/normal" className="max-w-4xl">
+              <Typography variant="display-xs/normal" className="max-w-4xl">
                 <strong>Result driven marketing.</strong> ACME is a
                 next-generation marketing and technology company.
               </Typography>
-              <div className="flex gap-4">
+              <div className="flex flex-col gap-4 sm:flex-row">
                 <Button variant="default" size="lg">
                   Get Started
                 </Button>
@@ -152,7 +152,7 @@ export default function Landing1() {
                     ACME Works for You
                   </Typography>
                   <Typography
-                    variant="5xl/semibold"
+                    variant="display-lg/semibold"
                     className="max-w-4xl leading-tight text-foreground"
                   >
                     How ACME makes increasing profit uncomplicated
@@ -249,7 +249,7 @@ export default function Landing1() {
                     <div className="flex flex-col gap-8">
                       <div className="margin-bottom margin-small">
                         <Typography
-                          variant="5xl/semibold"
+                          variant="display-lg/semibold"
                           className="max-w-4xl leading-tight text-foreground"
                         >
                           Join Hundreds of Firms Growing with ACME
@@ -310,7 +310,7 @@ export default function Landing1() {
                     We&apos;re ready when you are.
                   </Typography>
                   <Typography
-                    variant="5xl/semibold"
+                    variant="display-lg/semibold"
                     className="max-w-4xl leading-tight text-foreground"
                   >
                     Ready to Take your Marketing to New Heights?
@@ -361,7 +361,11 @@ export default function Landing1() {
                             />
                           </div>
                         </div>
-                        <Typography as="h5" variant="2xl/medium" className="">
+                        <Typography
+                          as="h5"
+                          variant="display-xs/medium"
+                          className=""
+                        >
                           {c.title}
                         </Typography>
                         <Typography
@@ -390,13 +394,13 @@ export default function Landing1() {
           <div>
             <Container>
               <>
-                <div className="mb-16 mt-36 rounded-lg bg-muted/40 p-16">
+                <div className="mb-16 mt-36 rounded-lg bg-muted/40 py-16">
                   <div className="flex flex-col gap-5 text-center">
                     <div>
                       <Typography
                         as="h3"
-                        variant="4xl/semibold"
-                        className="text-primary-600"
+                        variant="display-md/semibold"
+                        className="text-primary"
                       >
                         Get more customers with&nbsp;ACME.
                       </Typography>
@@ -433,7 +437,7 @@ export default function Landing1() {
                           />
                         </div> */}
                       </a>
-                      <div className="flex gap-8 font-medium">
+                      <div className="flex gap-4 font-medium sm:gap-8">
                         <a href="#">
                           <div>Home</div>
                         </a>

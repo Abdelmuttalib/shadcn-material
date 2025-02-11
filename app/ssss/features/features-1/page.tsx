@@ -19,7 +19,7 @@ const featuresData = [
   },
 ];
 
-export default function Features() {
+export default function Features1() {
   return (
     <div className="flex h-full w-full items-center justify-center">
       <div className="mt-16 grid grid-cols-1 gap-4 rounded-lg p-6 sm:grid-cols-2 xl:grid-cols-3">
