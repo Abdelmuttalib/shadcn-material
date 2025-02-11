@@ -120,7 +120,7 @@ interface PricingTierProps {
   popular?: boolean;
 }
 
-export function PricingCard({
+function PricingCard({
   name,
   price,
   description,

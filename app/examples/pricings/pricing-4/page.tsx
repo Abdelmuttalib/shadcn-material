@@ -117,7 +117,7 @@ interface PricingTierProps {
   highlighted?: boolean;
 }
 
-export function PricingCard({
+function PricingCard({
   name,
   price,
   description,

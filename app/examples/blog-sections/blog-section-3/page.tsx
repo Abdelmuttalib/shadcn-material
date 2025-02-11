@@ -154,7 +154,7 @@ interface BlogCardProps {
   slug: string;
 }
 
-export function BlogCard({
+function BlogCard({
   title,
   excerpt,
   date,

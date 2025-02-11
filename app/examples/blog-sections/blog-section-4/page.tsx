@@ -96,13 +96,7 @@ interface BlogCardProps {
   slug: string;
 }
 
-export function BlogCard({
-  title,
-  date,
-  category,
-  imageUrl,
-  slug,
-}: BlogCardProps) {
+function BlogCard({ title, date, category, imageUrl, slug }: BlogCardProps) {
   return (
     <Card className="group overflow-hidden transition-all duration-300 hover:shadow-md">
       <Link href={`/blog/${slug}`} className="block">

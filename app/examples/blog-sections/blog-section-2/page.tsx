@@ -154,7 +154,7 @@ interface BlogCardProps {
   featured?: boolean;
 }
 
-export function BlogCard({
+function BlogCard({
   title,
   excerpt,
   date,
