@@ -54,7 +54,7 @@ export default function ExamplesLayout({ children }: ExamplesLayoutProps) {
     //       <div className="space-y-4 *:border-y *:border-border/80">
     //         <Typography
     //           as="h1"
-    //           variant="display-xl/medium"
+    //           variant="6xl/medium"
     //           className="border-y px-4 tracking-tight"
     //         >
     //           shadcn ui <span className="italic">styles</span>

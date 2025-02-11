@@ -78,13 +78,13 @@ export default function Landing1() {
               {/* <GradientBackground /> */}
 
               <Typography
-                variant="display-xl/semibold"
+                variant="6xl/semibold"
                 className="max-w-4xl leading-tight text-foreground"
               >
                 Client Acquisition Marketing to Take Your Law Firm to the Next
                 Level
               </Typography>
-              <Typography variant="display-xs/normal" className="max-w-4xl">
+              <Typography variant="2xl/normal" className="max-w-4xl">
                 <strong>Result driven marketing.</strong> ACME is a
                 next-generation marketing and technology company.
               </Typography>
@@ -152,7 +152,7 @@ export default function Landing1() {
                     ACME Works for You
                   </Typography>
                   <Typography
-                    variant="display-lg/semibold"
+                    variant="5xl/semibold"
                     className="max-w-4xl leading-tight text-foreground"
                   >
                     How ACME makes increasing profit uncomplicated
@@ -249,7 +249,7 @@ export default function Landing1() {
                     <div className="flex flex-col gap-8">
                       <div className="margin-bottom margin-small">
                         <Typography
-                          variant="display-lg/semibold"
+                          variant="5xl/semibold"
                           className="max-w-4xl leading-tight text-foreground"
                         >
                           Join Hundreds of Firms Growing with ACME
@@ -310,7 +310,7 @@ export default function Landing1() {
                     We&apos;re ready when you are.
                   </Typography>
                   <Typography
-                    variant="display-lg/semibold"
+                    variant="5xl/semibold"
                     className="max-w-4xl leading-tight text-foreground"
                   >
                     Ready to Take your Marketing to New Heights?
@@ -361,11 +361,7 @@ export default function Landing1() {
                             />
                           </div>
                         </div>
-                        <Typography
-                          as="h5"
-                          variant="display-xs/medium"
-                          className=""
-                        >
+                        <Typography as="h5" variant="2xl/medium" className="">
                           {c.title}
                         </Typography>
                         <Typography
@@ -399,7 +395,7 @@ export default function Landing1() {
                     <div>
                       <Typography
                         as="h3"
-                        variant="display-md/semibold"
+                        variant="4xl/semibold"
                         className="text-primary"
                       >
                         Get more customers with&nbsp;ACME.
