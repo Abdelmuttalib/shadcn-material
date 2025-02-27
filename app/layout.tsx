@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeButton } from "@/components/theme-button";
+import { ThemeProvider } from "./components/theme-provider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -27,15 +28,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${robotoMono.variable} font-sans antialiased`}
-      >
-        <div className="fixed right-2 top-2 z-[9999]">
-          <ThemeButton />
-        </div>
-        {/* <TailwindIndicator /> */}
-        {children}
-      </body>
+      <ThemeProvider>
+        <body
+          className={`${roboto.variable} ${robotoMono.variable} font-sans antialiased`}
+        >
+          <div className="fixed right-2 top-2 z-[9999]">
+            <ThemeButton />
+          </div>
+          {/* <TailwindIndicator /> */}
+          {children}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
