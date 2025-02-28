@@ -1,6 +1,6 @@
 "use client";
 
-import { MoonIcon } from "lucide-react";
+import { MoonIcon, SunIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useTheme } from "next-themes";
 
@@ -19,7 +19,7 @@ export function ThemeButton() {
       onClick={toggleTheme}
       className="h-8 w-8"
     >
-      <MoonIcon />
+      {theme === "light" ? <MoonIcon /> : <SunIcon />}
     </Button>
   );
 }
